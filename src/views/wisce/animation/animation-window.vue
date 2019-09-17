@@ -9,7 +9,6 @@
       inactive-color="#ff4949">
     </el-switch>
 
-
     <!--组态环境窗口总布局-->
     <div class="all-window" v-if="showModal">
 
