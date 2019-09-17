@@ -8,7 +8,8 @@
   export default {
     name: 'shrinkView',
     props: {
-      value: Boolean
+      value: Boolean,
+      isShowTool: Boolean
     },
     updated() {
       this.init()
@@ -32,8 +33,8 @@
       },
 
       // 监听 mIsOpen 的变化，一旦变化，将input事件暴露，这样可实现v-model双向绑定。
-      mIsOpen (newValue) {
-        this.$emit('input', newValue)
+      mIsOpen(newValue) {
+        this.$emit('checkBox', newValue)
       }
     },
     data() {
@@ -49,11 +50,12 @@
   .shrink-view {
     overflow: hidden;
 
-    -webkit-transition-duration: 300ms;
-    -moz-transition-duration: 300ms;
-    -ms-transition-duration: 300ms;
-    -o-transition-duration: 300ms;
-    transition-duration: 300ms;
+    height: 864px;     // 将父组件页面高度给到子组件保证属性详情可以完整显示
+    -webkit-transition-duration: 1500ms;
+    -moz-transition-duration: 1500ms;
+    -ms-transition-duration: 1500ms;
+    -o-transition-duration: 1500ms;
+    transition-duration: 1500ms;
   }
 
 

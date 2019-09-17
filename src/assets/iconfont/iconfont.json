@@ -1,0 +1,100 @@
+{
+  "id": "1408892",
+  "name": "icon",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "69661",
+      "name": "占位图",
+      "font_class": "zhanweitu",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    },
+    {
+      "icon_id": "392156",
+      "name": "箭头",
+      "font_class": "45",
+      "unicode": "e6a5",
+      "unicode_decimal": 59045
+    },
+    {
+      "icon_id": "755610",
+      "name": "圆角矩形",
+      "font_class": "yuanjiao-rect",
+      "unicode": "e64e",
+      "unicode_decimal": 58958
+    },
+    {
+      "icon_id": "755616",
+      "name": "直线",
+      "font_class": "line",
+      "unicode": "e653",
+      "unicode_decimal": 58963
+    },
+    {
+      "icon_id": "999255",
+      "name": "字体",
+      "font_class": "ai247",
+      "unicode": "e6eb",
+      "unicode_decimal": 59115
+    },
+    {
+      "icon_id": "4800126",
+      "name": "取消连接",
+      "font_class": "quxiaolianjie",
+      "unicode": "e7ad",
+      "unicode_decimal": 59309
+    },
+    {
+      "icon_id": "5340030",
+      "name": "元件",
+      "font_class": "yuanjian",
+      "unicode": "e671",
+      "unicode_decimal": 58993
+    },
+    {
+      "icon_id": "5638792",
+      "name": "固定",
+      "font_class": "guding",
+      "unicode": "e614",
+      "unicode_decimal": 58900
+    },
+    {
+      "icon_id": "6266248",
+      "name": "矩形",
+      "font_class": "juxing",
+      "unicode": "e790",
+      "unicode_decimal": 59280
+    },
+    {
+      "icon_id": "6266249",
+      "name": "椭圆形",
+      "font_class": "tuoyuanxing",
+      "unicode": "e791",
+      "unicode_decimal": 59281
+    },
+    {
+      "icon_id": "8551135",
+      "name": "9圆弧线",
+      "font_class": "yuanhuxian",
+      "unicode": "e603",
+      "unicode_decimal": 58883
+    },
+    {
+      "icon_id": "10048825",
+      "name": "多边形",
+      "font_class": "duobianxing",
+      "unicode": "e61b",
+      "unicode_decimal": 58907
+    },
+    {
+      "icon_id": "10809820",
+      "name": "关闭 退出",
+      "font_class": "changyongtubiao-xianxingdaochu-zhuanqu-",
+      "unicode": "e72f",
+      "unicode_decimal": 59183
+    }
+  ]
+}

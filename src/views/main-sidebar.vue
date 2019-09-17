@@ -41,6 +41,11 @@
             <icon-svg name="tubiao" class="site-sidebar__menu-icon"></icon-svg>
             <span slot="title">动画组态启动画面</span>
           </el-menu-item>
+          <el-menu-item index="save-1" @click="$router.push({ name: 'component-son' })">
+            <icon-svg name="tubiao" class="site-sidebar__menu-icon"></icon-svg>
+            <span slot="title">子组件测试</span>
+          </el-menu-item>
+
         </el-submenu>
       </el-menu>
     </div>
