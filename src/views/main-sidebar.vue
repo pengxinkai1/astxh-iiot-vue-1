@@ -43,7 +43,7 @@
           </el-menu-item>
           <el-menu-item index="save-1" @click="$router.push({ name: 'component-son' })">
             <icon-svg name="tubiao" class="site-sidebar__menu-icon"></icon-svg>
-            <span slot="title">子组件测试</span>
+            <span slot="title">子组件@Test</span>
           </el-menu-item>
 
         </el-submenu>

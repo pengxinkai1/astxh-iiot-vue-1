@@ -14,6 +14,7 @@
 
       <!--选择项目加载list-->
       <div class="check-list" :style="{height:(showTools?664:793)+ 'px'}">
+        <p>请选择要启动的窗口</p>
         <el-carousel class="carousel-img" height="600px" direction="" :autoplay="false">
           <el-carousel-item v-for="item in 3" :key="item">
             <save1 @func="getSave1Data">{{ item }}</save1>
@@ -210,7 +211,7 @@
       <!--属性栏DIV-->
       <div class="property-list" :style="{height:(showTools?664:793)+ 'px'}">
         <shrink-view v-model="open">
-          <el-collapse v-model="activeName" accordion>
+          <el-collapse v-model="activeName" accordion >
             <el-collapse-item title="属性设置" name="1">
               <div>设置具体属性</div>
               <div>填充颜色，字符颜色，边线颜色，边线线型</div>
@@ -270,11 +271,8 @@
         window.opener = null
         window.open(' ', '_self')
         window.close()
-        this.$notify({
-          title: '成功',
-          message: '窗口已最关闭！',
-          type: 'success'
-        })
+
+        this.$message('窗口已关闭！')
       },
       buttonTool() {
         this.showTools = !this.showTools
