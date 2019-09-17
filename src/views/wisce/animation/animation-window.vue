@@ -14,7 +14,7 @@
 
       <!--选择项目加载list-->
       <div class="check-list" :style="{height:(showTools?664:793)+ 'px'}">
-        <el-carousel class="carousel-img" height="600px" direction="vertical" :autoplay="false">
+        <el-carousel class="carousel-img" height="600px" direction="" :autoplay="false">
           <el-carousel-item v-for="item in 3" :key="item">
             <save1 @func="getSave1Data">{{ item }}</save1>
           </el-carousel-item>
