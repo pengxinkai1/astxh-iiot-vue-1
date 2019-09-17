@@ -51,11 +51,11 @@
     overflow: hidden;
 
     height: 864px;     // 将父组件页面高度给到子组件保证属性详情可以完整显示
-    -webkit-transition-duration: 1500ms;
-    -moz-transition-duration: 1500ms;
-    -ms-transition-duration: 1500ms;
-    -o-transition-duration: 1500ms;
-    transition-duration: 1500ms;
+    -webkit-transition-duration: 1000ms;
+    -moz-transition-duration: 1000ms;
+    -ms-transition-duration: 1000ms;
+    -o-transition-duration: 1000ms;
+    transition-duration: 1000ms;
   }
 
 

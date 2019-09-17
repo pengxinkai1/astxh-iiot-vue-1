@@ -6,7 +6,7 @@
       v-model="open"
       active-text="显示动画组态属性"
       active-color="#13ce66"
-      inactive-color="#ff4949">
+      inactive-color="#7F868C">
     </el-switch>
 
     <!--组态环境窗口总布局-->
